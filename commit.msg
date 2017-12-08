@@ -1,1 +1,2 @@
-got rid of the lib folder to flatten the directory hirearchy
+flattened the folder hierarchy a little
+split embroider_params.py into seperate components

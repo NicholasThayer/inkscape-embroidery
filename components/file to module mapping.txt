@@ -1,0 +1,46 @@
+auto_fill.py
+confirm_dialog.py
+detect_classes.py
+embroider_params.py
+embroidery_element.py
+embroidery_simulator.py
+Fill.py
+info_dialog.py
+__init__.py
+max_queue_length_exceeded.py
+param.py
+Params_tab.py
+polyline.py
+SatinColumn.py
+settings_frame.py
+simulate_effect.py
+stroke.py
+tmp
+
+
+
+
+descendants.py
+patch.py
+patches_to_stitches.py
+stitches_to_polylines.py
+emit_inkscape Embroider
+
+
+File structure:
+  This is all going to change, I have to dig into the code before
+  I can really figure it out but this is what it looks like currently
+
+
+embroider.py
+  presets_path    -> util/preset_utils.py
+  load_presets    -> util/preset_utils.py
+  save_presets    -> util/preset_utils.py
+  delete_preset   -> util/preset_utils.py
+
+  save_stderr     -> util/err_utils.py
+  restore_stderr  -> util/err_utils.py
+
+  ParamsTab       -> components/params_tab.py
+  SettingsFrame   -> components/settings_frame.py
+  EmbroiderParams -> components/embroider_params.py
