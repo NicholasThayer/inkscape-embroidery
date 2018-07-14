@@ -18,6 +18,8 @@
 # Embroidery file format documentation:
 # http://www.achatina.de/sewing/main/TECHNICL.HTM
 
+
+
 import sys
 sys.path.append("/usr/share/inkscape/extensions")
 import os

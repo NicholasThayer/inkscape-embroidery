@@ -1,0 +1,50 @@
+
+
+
+
+File structure:
+  This is all going to change, I have to dig into the code before
+  I can really figure it out but this is what it looks like currently
+
+
+embroider.py
+  Param                  -> components/param.py
+  param                  -> components/param.py
+  EmbroideryElement      -> components/embroidery_element.py
+  Fill                   -> components/fill.py
+  MaxQueueLengthExceeded -> components/max_queue_length_exceeded.py
+  AutoFill               -> components/auto_fill.py
+  Stroke                 -> components/stroke.py
+  SatinColumn            -> components/satin_column.py
+  Polyline               -> components/polyline.py
+  detect_classes         -> components/detect_classes.py
+  descendants            -> components/descendants.py
+  Patch                  -> components/Patch.py
+  patches_to_stitches    -> components/patches_to_stitches.py
+  stitches_to_paths      -> components/stitches_to_paths.py
+  emit_inkscape          -> components/emit_inkscape.py
+  Embroider              -> components/embroider.py
+  Patch                  -> components/Patch.py
+
+
+embroider_params.py
+  presets_path           -> util/preset_utils.py
+  load_presets           -> util/preset_utils.py
+  save_presets           -> util/preset_utils.py
+  delete_preset          -> util/preset_utils.py
+       
+  save_stderr            -> util/err_utils.py
+  restore_stderr         -> util/err_utils.py
+
+  ParamsTab              -> components/params_tab.pysdf
+  SettingsFrame          -> components/settings_frame.py
+  EmbroiderParams        -> components/embroider_params.py
+
+
+embroider_simulate.py
+  EmbroiderySimulator    -> components/embroidery_simulator.py
+  SimulateEffect         -> components/simulate_effect.py
+
+
+embroider_update.py
+  EmbroiderParams        -> components/embroider_params_update.py
